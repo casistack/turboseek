@@ -3,7 +3,7 @@ services:
   app:
     build: .
     ports:
-      - "3000:3000"
+      - ":3000"
     environment:
       - TOGETHER_API_KEY=${TOGETHER_API_KEY}
       - HELICONE_API_KEY=${HELICONE_API_KEY}
